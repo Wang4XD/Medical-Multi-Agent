@@ -33,7 +33,7 @@ Project Structure
 
 Quick Start: 
 
-1. Set the API_KEY in the env file
+1. Create the .env file and complete the configuration of API_KEY and URL
 
 2. Download the corresponding weight file into the model folder
 
