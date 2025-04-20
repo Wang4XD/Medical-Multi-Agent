@@ -4,7 +4,7 @@ from config import Config
 
 
 def intent_classifier(state):
-    """Use GPT-4o for intent classification"""
+    """Use GPT-4o for intent classification. The prompt content can be further expanded based on the task"""
     client = OpenAI(api_key="YOUR_API_KEY")
 
     prompt = f"""
