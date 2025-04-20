@@ -17,18 +17,18 @@ Project Structure
 
 ```
 ├── Agent
-    ├──model
-        ├──HuatuoGPT-o1-7B
-        ├──...
-        ├──...
-    ├──medical_multi_Agent
-        ├──llava
-        ├──uploads
-        ├──main.py
-        ├──workflow.py
-        ├──...
-        ├──...
-    ├──.env
+    ├── model
+        ├── HuatuoGPT-o1-7B
+        ├── ...
+        ├── ...
+    ├── medical_multi_Agent
+        ├── llava
+        ├── uploads
+        ├── main.py
+        ├── workflow.py
+        ├── ...
+        ├── ...
+    ├── .env
 ``` 
 
-Quick Start:Set the API_KEY in the env file, and then python main.py
+Quick Start: Set the API_KEY in the env file, and then ```python main.py```
