@@ -3,7 +3,7 @@ from model_loader import ModelLoader
 
 
 def answer_question(state):
-    """医学问答处理"""
+    """Medical Question-and-answer processing"""
     model = ModelLoader().medical_llm
     tokenizer = ModelLoader().medical_tokenizer
 
