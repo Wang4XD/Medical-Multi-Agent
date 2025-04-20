@@ -33,6 +33,8 @@ Project Structure
 
 Quick Start: 
 
-set the API_KEY in the env file
+1. Set the API_KEY in the env file
 
-```python main.py```
+2. Download the corresponding weight file into the model folder
+
+3. ```python main.py```
