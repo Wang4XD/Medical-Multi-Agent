@@ -15,6 +15,7 @@ Process: 1. User input → 2. GPT-4o Intent recognition → 3. Route decision (p
 
 Project Structure
 
+```
 ├── Agent
     ├──model
         ├──HuatuoGPT-o1-7B
@@ -28,5 +29,6 @@ Project Structure
         ├──...
         ├──...
     ├──.env
+``` 
 
 Quick Start:Set the API_KEY in the env file, and then python main.py
