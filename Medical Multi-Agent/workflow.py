@@ -6,7 +6,7 @@ from general_chat import general_chat
 from multimodal_qa import MultimodalQA
 
 def route_decision(state):
-    """路由决策函数"""
+    """Routing decision function"""
     task_type = state["task_type"].lower()
 
     if "image_segmentation" in task_type:
@@ -18,7 +18,7 @@ def route_decision(state):
     elif "general_greeting" in task_type:
         return "general_chat"
     else:
-        # 默认进入闲聊模式
+        # Enter the regular chat by default
         return "general_chat"
 
 
@@ -28,8 +28,8 @@ def create_workflow():
     workflow.add_node("intent_classifier", intent_classifier)
     workflow.add_node("process_image", process_image)
     workflow.add_node("answer_question", answer_question)
-    workflow.add_node("general_chat", general_chat)  # 新增闲聊节点
-    workflow.add_node("multimodal_qa", MultimodalQA().answer_question)  # 新增多模态分支
+    workflow.add_node("general_chat", general_chat) 
+    workflow.add_node("multimodal_qa", MultimodalQA().answer_question)  
 
     workflow.add_conditional_edges(
         "intent_classifier",
@@ -37,14 +37,14 @@ def create_workflow():
         {
             "process_image": "process_image",
             "answer_question": "answer_question",
-            "general_chat": "general_chat",  # 新增闲聊路径
+            "general_chat": "general_chat",  
             "multimodal_qa":"multimodal_qa"
         }
     )
     workflow.add_edge("process_image", END)
     workflow.add_edge("answer_question", END)
-    workflow.add_edge("general_chat", END)  # 闲聊直接结束
-    workflow.add_edge("multimodal_qa", END)  # 确保终止节点正确
+    workflow.add_edge("general_chat", END)  
+    workflow.add_edge("multimodal_qa", END)  
 
     workflow.set_entry_point("intent_classifier")
     return workflow
