@@ -31,4 +31,5 @@ Project Structure
     ├── .env
 ``` 
 
-Quick Start: Set the API_KEY in the env file, and then ```python main.py```
+Quick Start: set the API_KEY in the env file, and then 
+```python main.py```
