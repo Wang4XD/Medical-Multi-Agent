@@ -15,7 +15,7 @@ https://huggingface.co/facebook/mask2former-swin-large-cityscapes-semantic
 
 ## Processing Flow
 
-1. User input → 2. GPT-4o Intent recognition → 3. Route decision (pipeline) → 4. Execute the corresponding Agent → 5. Return the result
+1. User input → 2. GPT-4o Intent recognition → 3. Route decision → 4. Execute the corresponding Agent → 5. Return the result
 
 
 ## Project Structure
