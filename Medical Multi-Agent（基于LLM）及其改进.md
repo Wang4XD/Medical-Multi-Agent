@@ -10,7 +10,6 @@
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/34888563/1742953108359-8aa55985-cfce-435a-b55f-5b86584da559.png)
 
-项目代码：见邮件附件。
 
 
 
@@ -52,7 +51,9 @@ https://huggingface.co/facebook/mask2former-swin-large-cityscapes-semantic（可
 
 ![](https://cdn.nlark.com/yuque/0/2025/jpeg/34888563/1742954245301-896d7c69-ee20-4a18-ac91-d573da2eb6a0.jpeg)
 
-----------------------------------------------------踩过的坑--------------------------------------------------报错LlavaQwen2ForCausalLM.forward() got an unexpected keyword argument 'cache_position'
+-------------------------------------------踩过的坑--------------------------------------------------
+
+报错LlavaQwen2ForCausalLM.forward() got an unexpected keyword argument 'cache_position'
 
 添加cache_position=None
 
