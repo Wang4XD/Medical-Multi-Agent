@@ -4,7 +4,7 @@
 
 
 
-[requirements.txt](https://www.yuque.com/attachments/yuque/0/2025/txt/34888563/1742952824060-e144a519-0716-46d6-a6bd-45526418d57a.txt)、
+[requirements.txt](https://www.yuque.com/attachments/yuque/0/2025/txt/34888563/1742952824060-e144a519-0716-46d6-a6bd-45526418d57a.txt)
 
 项目结构：
 
