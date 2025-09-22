@@ -8,8 +8,6 @@ https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-7B
 
 https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-7B
 
-https://huggingface.co/wanglab/medsam-vit-base
-
 https://huggingface.co/facebook/mask2former-swin-large-cityscapes-semantic
 
 
